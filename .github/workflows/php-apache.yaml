@@ -1,4 +1,4 @@
-name: PHP
+name: PHP-Apache
 
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
@@ -19,8 +19,8 @@ on:
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io  
-  IMAGE_NAME: ${{ github.actor }}/php
-  CONTAINERFILE: Containerfile._php
+  IMAGE_NAME: ${{ github.actor }}/php-apache
+  CONTAINERFILE: Containerfile.php
   
 
 
