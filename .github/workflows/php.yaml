@@ -20,7 +20,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io  
   IMAGE_NAME: ${{ github.actor }}/php
-  CONTAINERFILE: Containerfile.php
+  CONTAINERFILE: Containerfile._php
   
 
 
