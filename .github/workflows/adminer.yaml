@@ -20,7 +20,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
-  IMAGE_NAME: adminer
+  IMAGE_NAME: ${{ github.actor }}/adminer
   CONTAINERFILE: Containerfile.adminer
   # IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
 

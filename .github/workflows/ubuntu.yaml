@@ -19,7 +19,7 @@ on:
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io  
-  IMAGE_NAME: ubuntu
+  IMAGE_NAME: ${{ github.actor }}/ubuntu
   CONTAINERFILE: Containerfile.ubuntu
   
 
