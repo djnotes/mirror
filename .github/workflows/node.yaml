@@ -8,7 +8,7 @@ name: Node
 on:
   # Commenting out because want image rebuild only on push
   schedule:
-    - cron: '40 21 * * *'
+    - cron: '0 3 * * 5'  #Run every Friday at 3:00 UTC
   push:
     branches: [ main ]
     # Publish semver tags as releases.
