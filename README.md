@@ -50,6 +50,7 @@ docker pull ghcr.io/djnotes/alpine:latest
 - Traefik
 - Ubuntu
 - WordPress
+- Composer
 
 
 ## Want More Images?
